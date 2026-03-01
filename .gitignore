@@ -1,0 +1,34 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# Go build outputs
+*.exe
+*.exe~
+*.test
+*.dll
+*.so
+*.dylib
+
+# Go test and coverage
+coverage.out
+coverage.html
+*.coverprofile
+
+# Go profiling
+*.prof
+*.pprof
+
+# Go fuzz cache
+testdata/fuzz/
+
+# Delve debugger
+__debug_bin*
+
+# OS
+.DS_Store
+Thumbs.db
